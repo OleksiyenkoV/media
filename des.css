@@ -1,0 +1,61 @@
+body{
+	background: #333;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	height: 100vh;
+}
+.kvadrat1{
+	width: 100px;
+	height: 100px;
+	background: #45F22A;
+}
+
+.kvadrat2{
+	width: 100px;
+	height: 100px;
+	background: #3210AB;
+}
+
+.kvadrat3{
+	width: 100px;
+	height: 100px;
+	background: #ECF36C;
+}
+@media(max-width: 900px){
+	.kvadrat1{
+	width: 200px;
+	height: 200px;
+	background: #45F22A;}
+
+	.kvadrat2{
+	width: 200px;
+	height: 200px;
+	background: #3210AB;}
+
+	.kvadrat3{
+	width: 200px;
+	height: 200px;
+	background: #ECF36C;}
+}
+@media(orientation: portrait){
+	.kvadrat1{
+	width: 200px;
+	height: 200px;
+	background: #45F22A;}
+
+	.kvadrat2{
+	width: 400px;
+	height: 400px;
+	background: #3210AB;}
+	
+	.kvadrat3{
+	width: 200px;
+	height: 200px;
+	background: #ECF36C;}
+}
